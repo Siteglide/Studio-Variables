@@ -1,0 +1,325 @@
+// Studio variables
+
+// Resets
+
+$reset-border: 0;
+
+$reset-border-radius: 0;
+
+$reset-box-shadow: none;
+
+$reset-color: transparent;
+
+$reset-margin: 0;
+
+$reset-padding: 0;
+
+// Main Colors
+
+$color-blue: #1e94e6;
+
+$color-blue-dark: #101a29;
+
+$color-green: #00e65a;
+
+$color-mint-green: #aeff91;
+
+$color-pink: #fb5392;
+
+$color-purple: #7737ff;
+
+$color-orange: #ffb201;
+
+$color-red: #ff0000;
+
+$color-black: #000000;
+
+$color-grey-dark: #4f4f4f;
+
+$color-grey-light: #fcfcfc;
+
+$color-white: #ffffff;
+
+$color-primary: $color-blue;
+
+$color-primary-dark: $color-blue-dark;
+
+$color-secondary: $color-white;
+
+$color-tertiary: $color-mint-green;
+
+// Text Colors
+
+$text-color-black: $color-black;
+
+$text-color-white: $color-white;
+
+$text-color-grey: #9baabf;
+
+$text-color-grey-light: #f7fafc;
+
+$color-text-primary: $text-color-grey;
+
+$color-text-secondary: $text-color-grey-light;
+
+$hero-text-color: $color-text-primary;
+
+$h1-text-color: $color-text-primary;
+
+$h2-text-color: $color-text-primary;
+
+$h3-text-color: $color-text-primary;
+
+$h4-text-color: $color-text-primary;
+
+$h5-text-color: $color-text-primary;
+
+$h6-text-color: $color-text-primary;
+
+$anchor-color: $color-primary;
+
+// Typography
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$body-font-family: "Mulish", sans-serif;
+
+$header-font-family: "Prompt", sans-serif;
+
+$font-awesome-font-family: "Font Awesome 5 Free";
+
+$hero-font-size: 92px;
+
+$h1-font-size: 80px;
+
+$h2-font-size: 64px;
+
+$h3-font-size: 48px;
+
+$h4-font-size: 35px;
+
+$h5-font-size: 26px;
+
+$h6-font-size: 22px;
+
+$body-font-size: 16px;
+
+$blockquote-font-size: 24px;
+
+$hero-line-height: 100%;
+
+$h1-line-height: 100%;
+
+$h2-line-height: 100%;
+
+$h3-line-height: 100%;
+
+$h4-line-height: 100%;
+
+$h5-line-height: 100%;
+
+$h6-line-height: 100%;
+
+$body-line-height: 20px;
+
+$blockquote-line-height: 30px;
+
+// Body
+
+$body-position: relative;
+
+// Anchor
+
+$anchor-cursor: pointer;
+
+// List
+
+$list-style-position: inside;
+
+// Button
+
+$btn-border-radius: 60px;
+
+$btn-border-width: 3px;
+
+$btn-text-decoration: none;
+
+$btn-width: 100%;
+
+$btn-sm-width: auto;
+
+$btn-primary-background-color: $color-primary;
+
+$btn-primary-border-color: $color-primary;
+
+$btn-primary-text-color: $color-white;
+
+$btn-primary-focus-background-color: darken($color-primary, 10%);
+
+$btn-primary-hover-background-color: lighten($color-primary, 10%);
+
+$btn-secondary-background-color: $color-secondary;
+
+$btn-secondary-border-color: $color-secondary;
+
+$btn-secondary-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.05);
+
+$btn-secondary-text-color: $color-primary-dark;
+
+$btn-secondary-focus-background-color: darken($color-secondary, 20%);
+
+$btn-secondary-focus-border-color: darken($color-secondary, 20%);
+
+$btn-secondary-hover-background-color: darken($color-secondary, 10%);
+
+$btn-secondary-hover-border-color: darken($color-secondary, 10%);
+
+$btn-tertiary-background-color: $color-tertiary;
+
+$btn-tertiary-border-color: $color-tertiary;
+
+$btn-tertiary-text-color: $color-primary-dark;
+
+$btn-tertiary-focus-background-color: darken($color-tertiary, 10%);
+
+$btn-tertiary-hover-background-color: lighten($color-tertiary, 10%);
+
+$btn-success-background-color: $color-green;
+
+$btn-success-border-color: $color-green;
+
+$btn-success-text-color: $color-white;
+
+$btn-success-focus-background-color: darken($color-green, 10%);
+
+$btn-success-hover-background-color: lighten($color-green, 10%);
+
+$btn-warning-background-color: $color-orange;
+
+$btn-warning-border-color: $color-orange;
+
+$btn-warning-text-color: $color-white;
+
+$btn-warning-focus-background-color: darken($color-orange, 10%);
+
+$btn-warning-hover-background-color: lighten($color-orange, 10%);
+
+$btn-danger-background-color: $color-red;
+
+$btn-danger-border-color: $color-red;
+
+$btn-danger-text-color: $color-white;
+
+$btn-danger-focus-background-color: darken($color-red, 10%);
+
+$btn-danger-hover-background-color: lighten($color-red, 10%);
+
+$btn-outline-primary-background-color: $reset-color;
+
+$btn-outline-primary-border-color: $color-primary;
+
+$btn-outline-primary-text-color: $color-primary;
+
+$btn-outline-primary-focus-background-color: rgba($color-primary, 0.3);
+
+$btn-outline-primary-focus-border-color: darken($color-primary, 10%);
+
+$btn-outline-primary-hover-background-color: rgba($color-primary, 0.1);
+
+$btn-outline-primary-hover-border-color: lighten($color-primary, 10%);
+
+$btn-outline-secondary-background-color: $reset-color;
+
+$btn-outline-secondary-border-color: $color-primary-dark;
+
+$btn-outline-secondary-text-color: $color-primary-dark;
+
+$btn-outline-secondary-focus-background-color: rgba($color-primary-dark, 0.3);
+
+$btn-outline-secondary-focus-border-color: darken($color-primary-dark, 10%);
+
+$btn-outline-secondary-hover-background-color: rgba($color-primary-dark, 0.1);
+
+$btn-outline-secondary-hover-border-color: lighten($color-primary-dark, 10%);
+
+$btn-outline-tertiary-background-color: $reset-color;
+
+$btn-outline-tertiary-border-color: $color-tertiary;
+
+$btn-outline-tertiary-text-color: $color-tertiary;
+
+$btn-outline-tertiary-focus-background-color: rgba($color-tertiary, 0.3);
+
+$btn-outline-tertiary-focus-border-color: darken($color-tertiary, 10%);
+
+$btn-outline-tertiary-hover-background-color: rgba($color-tertiary, 0.1);
+
+$btn-outline-tertiary-hover-border-color: lighten($color-tertiary, 10%);
+
+$btn-outline-success-background-color: $reset-color;
+
+$btn-outline-success-border-color: $color-green;
+
+$btn-outline-success-text-color: $color-green;
+
+$btn-outline-success-focus-background-color: rgba($color-green, 0.3);
+
+$btn-outline-success-focus-border-color: darken($color-green, 10%);
+
+$btn-outline-success-hover-background-color: rgba($color-green, 0.1);
+
+$btn-outline-success-hover-border-color: lighten($color-green, 10%);
+
+$btn-outline-warning-background-color: $reset-color;
+
+$btn-outline-warning-border-color: $color-orange;
+
+$btn-outline-warning-text-color: $color-orange;
+
+$btn-outline-warning-focus-background-color: rgba($color-orange, 0.3);
+
+$btn-outline-warning-focus-border-color: darken($color-orange, 10%);
+
+$btn-outline-warning-hover-background-color: rgba($color-orange, 0.1);
+
+$btn-outline-warning-hover-border-color: lighten($color-orange, 10%);
+
+$btn-outline-danger-background-color: $reset-color;
+
+$btn-outline-danger-border-color: $color-red;
+
+$btn-outline-danger-text-color: $color-red;
+
+$btn-outline-danger-focus-background-color: rgba($color-red, 0.3);
+
+$btn-outline-danger-focus-border-color: darken($color-red, 10%);
+
+$btn-outline-danger-hover-background-color: rgba($color-red, 0.1);
+
+$btn-outline-danger-hover-border-color: lighten($color-red, 10%);
+
+$btn-link-border-radius: $reset-border-radius;
+
+// Icon
+
+$icon-font-size: 45px;
+
+// Breakpoints
+
+$grid-breakpoints: (
+
+ xxs: 0,
+
+ xs: 448px,
+
+ sm: 576px,
+
+ md: 768px,
+
+ lg: 992px,
+
+ xl: 1200px
+
+) !default;
